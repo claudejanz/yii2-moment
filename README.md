@@ -32,6 +32,6 @@ Usage
 Once the extension is installed, simply use it in your view by:
 
 ```php
-use 
+use claudejanz\yii2moment\MomentAsset
 MomentAsset::register($this->view);
 ```
