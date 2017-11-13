@@ -1,0 +1,31 @@
+{
+    "name": "claudejanz/yii2-moment",
+    "description": "asset loader for moment.js",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "moment"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "claudejanz",
+            "email": "claude.janz@gmail.com",
+            "homepage": "https://www.klod.ch/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "claude.janz@gmail.com",
+        "source": "https://github.com/claudejanz/yii2-moment"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-jui": "*",
+        "bower-asset/moment": ">=2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "claudejanz\\yii2moment\\": ""
+        }
+    }
+}
